@@ -52,34 +52,30 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- FIX: Явное добавление aspectjweaver, чтобы исправить ошибку сборки "not found" -->
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>${aspectj.version}</version>
     </dependency>
 
-    <!-- FIX: Явное указание безопасной версии commons-codec, чтобы исправить уязвимость -->
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.15</version> <!-- Безопасная версия -->
+      <version>1.15</version>
       <scope>test</scope>
     </dependency>
 
-    <!-- FIX: Обновление до последней стабильной версии commons-lang3 для исправления уязвимостей -->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.14.0</version> <!-- Самая последняя стабильная версия -->
+      <version>3.14.0</version>
       <scope>test</scope>
     </dependency>
 
-    <!-- Зависимость для SLF4J, чтобы убрать предупреждение -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
-      <version>1.7.32</version> <!-- Популярная стабильная версия -->
+      <version>1.7.32</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
