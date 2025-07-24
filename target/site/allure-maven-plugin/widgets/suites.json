@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "7409712e6e4f931edc6d3ab4ac3514fe",
+    "name" : "ru.praktikum.tests.CreateOrderTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b87b0fb15674c324bdd3d7f0699f25be",
+    "name" : "ru.praktikum.tests.UpdateUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "adf19ce116ce798d08780ec73567aa0e",
+    "name" : "ru.praktikum.tests.UserCreationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "19b235a526e11734de08dd3ae2f96336",
+    "name" : "ru.praktikum.tests.GetUserOrdersTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f88de0472d0990a1edc05b0ff237479d",
+    "name" : "ru.praktikum.tests.LoginUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

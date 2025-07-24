@@ -1,0 +1,123 @@
+{
+  "uid" : "61d96654dce8da03",
+  "name" : "Изменение данных пользователя без авторизации",
+  "fullName" : "ru.praktikum.tests.UpdateUserTest.userDataCannotBeUpdatedWithoutAuth",
+  "historyId" : "e77b132b98a91b542658509fdff60f72",
+  "time" : {
+    "start" : 1752613891320,
+    "stop" : 1752613892073,
+    "duration" : 753
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1752613891320,
+        "stop" : 1752613891463,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_user_1752613891320@example.com, password=password123, name=TestUser)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Изменение данных пользователя",
+      "time" : {
+        "start" : 1752613891477,
+        "stop" : 1752613891563,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : ""
+      }, {
+        "name" : "user",
+        "value" : "User(email=test_user_1752613891320@example.com, password=password123, name=NewName)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1752613891588,
+        "stop" : 1752613892073,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzZjNDAyOWVkMjgwMDAxYjY1OTAwYSIsImlhdCI6MTc1MjYxMzg5MCwiZXhwIjoxNzUyNjE1MDkwfQ.h3ZHeUxuyRNkxNkxIOoPv6CZL1K8JCj2NggrfmQlm24"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.tests.UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userDataCannotBeUpdatedWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.tests.UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VGCR9EF"
+  }, {
+    "name" : "thread",
+    "value" : "11216@DESKTOP-VGCR9EF.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61d96654dce8da03.json",
+  "parameterValues" : [ ]
+}

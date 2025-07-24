@@ -1,0 +1,191 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.praktikum.tests",
+    "children" : [ {
+      "name" : "orderCannotBeCreatedWithInvalidHash",
+      "uid" : "8d9bdb15377fd6ca",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613871028,
+        "stop" : 1752613876203,
+        "duration" : 5175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCannotBeCreatedWithoutIngredients",
+      "uid" : "45a25850b7da4d43",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613876315,
+        "stop" : 1752613877305,
+        "duration" : 990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreatedWithIngredientsAndAuth",
+      "uid" : "b87fe1067b7d464f",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613877335,
+        "stop" : 1752613880586,
+        "duration" : 3251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCannotBeCreatedWithoutAuth",
+      "uid" : "804f9e4f45432477",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613880590,
+        "stop" : 1752613881557,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrdersForAuthorizedUser",
+      "uid" : "370ddfc1bfff43a8",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613881568,
+        "stop" : 1752613885304,
+        "duration" : 3736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrdersForUnauthorizedUser",
+      "uid" : "461b6896f5648110",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613885309,
+        "stop" : 1752613888681,
+        "duration" : 3372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanLoginWithValidCredentials",
+      "uid" : "536cafc1138b864c",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613888687,
+        "stop" : 1752613889589,
+        "duration" : 902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCannotLoginWithWrongPassword",
+      "uid" : "f7037b6c222a3d04",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613889592,
+        "stop" : 1752613890456,
+        "duration" : 864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userNameCanBeUpdatedWithAuth",
+      "uid" : "4defe4e0428c0dd1",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613890460,
+        "stop" : 1752613891316,
+        "duration" : 856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userDataCannotBeUpdatedWithoutAuth",
+      "uid" : "61d96654dce8da03",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613891320,
+        "stop" : 1752613892073,
+        "duration" : 753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userEmailCanBeUpdatedWithAuth",
+      "uid" : "1066bd60b3b8ce07",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613892077,
+        "stop" : 1752613892903,
+        "duration" : 826
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCannotBeCreatedWithoutEmail",
+      "uid" : "f80d39a15b4b97d3",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613892907,
+        "stop" : 1752613893025,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCannotBeCreatedTwice",
+      "uid" : "cacd7d65bb1d01ee",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613893027,
+        "stop" : 1752613893834,
+        "duration" : 807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanBeCreatedWithValidData",
+      "uid" : "b334ea986df0fba5",
+      "parentUid" : "a0173ffbef6b5ad33d6005682aba676b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752613893838,
+        "stop" : 1752613894535,
+        "duration" : 697
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.praktikum.tests"
+  } ]
+}

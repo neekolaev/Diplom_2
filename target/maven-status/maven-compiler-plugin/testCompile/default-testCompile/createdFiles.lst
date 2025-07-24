@@ -1,0 +1,11 @@
+ru\praktikum\client\UserClient.class
+ru\praktikum\model\User.class
+ru\praktikum\client\BaseClient.class
+ru\praktikum\model\Order.class
+ru\praktikum\tests\UpdateUserTest.class
+ru\praktikum\tests\CreateOrderTest.class
+ru\praktikum\tests\GetUserOrdersTest.class
+ru\praktikum\tests\UserCreationTest.class
+ru\praktikum\client\OrderClient.class
+ru\praktikum\tests\LoginUserTest.class
+ru\praktikum\model\UserCredentials.class
