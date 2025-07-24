@@ -1,6 +1,4 @@
 package ru.praktikum.tests;
-
-import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
